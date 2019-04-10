@@ -1,0 +1,23 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+  "start":"webpack-dev-server --entey ./src/js/index.js --output-filename ./dist/main.js",
+    "dev": "webpack -mode development",
+    "build": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.0"
+  },
+  "dependencies": {
+    "css-loader": "^2.1.1",
+    "style-loader": "^0.23.1"
+  }
+}
